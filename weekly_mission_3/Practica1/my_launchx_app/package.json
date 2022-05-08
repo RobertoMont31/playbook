@@ -1,0 +1,19 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "Projecto to try unit testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": "Roberto Montufar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "ts-jest": "^28.0.1"
+  }
+}
